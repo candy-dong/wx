@@ -15,3 +15,9 @@ swiper-item:nth-child(2){
 swiper-item:nth-child(3){
     background-color: lightpink;
 }
+/* 图片 */
+image{
+    border: 1px solid red;
+    width: 300px;
+    height: 200px;
+}

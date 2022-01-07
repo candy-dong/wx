@@ -1,5 +1,13 @@
-<view>
-    手机长按选中效果
-    <text user-select>15678789876</text>
-</view>
-<rich-text nodes="<h1 style='color:red'>标题</h1></rich-text>"></rich-text>
+<button>普通按钮</button>
+<button type="primary">主色调按钮</button>
+<button type="warn">警告按钮</button>
+<!-- 小尺寸按钮 -->
+<button size="mini">普通按钮</button>
+<button type="primary" size="mini">主色调按钮</button>
+<button type="warn" size="mini">警告按钮</button>
+<!-- plain镂空按钮 -->
+<button size="mini" plain>普通按钮</button>
+<button type="primary" size="mini" plain>主色调按钮</button>
+<button type="warn" size="mini" plain>警告按钮</button>
+<image></image>
+<image src="/images/1.png" mode="aspectFill"></image>
