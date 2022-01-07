@@ -1,11 +1,5 @@
-<swiper class="swiper-container" indicator-dots indicator-color="white" indicator-active-color="gray" autoplay interval="3000" circular>
-    <swiper-item>
-        <view class="item">A</view>
-    </swiper-item>
-    <swiper-item>
-        <view class="item">B</view>
-    </swiper-item>
-    <swiper-item>
-        <view class="item">C</view>
-    </swiper-item>
-</swiper>
+<view>
+    手机长按选中效果
+    <text user-select>15678789876</text>
+</view>
+<rich-text nodes="<h1 style='color:red'>标题</h1></rich-text>"></rich-text>
