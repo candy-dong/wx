@@ -2,3 +2,4 @@
 <button type="primary" bindtap="countChange">按钮</button>
 <!-- 事件传参 data-* = "{{}}" -->
 <button type="primary" bindtap="bindTap2" data-info="{{2}}">按钮</button>
+<input type="text" bindinput="inputHandler"/>

@@ -28,6 +28,9 @@ Page({
       count: this.data.count + e.target.dataset.info 
     })
   },
+  inputHandler(e){
+    console.log(e.detail.value)
+  },
   // 事件处理函数
   bindViewTap() {
     wx.navigateTo({
