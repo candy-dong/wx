@@ -19,7 +19,13 @@ Page({
   },
   countChange(){
     this.setData({
-      count: this.data.count+1
+      count: this.data.count + 1
+    })
+  },
+  bindTap2(e){
+    console.log(e)
+    this.setData({
+      count: this.data.count + e.target.dataset.info 
     })
   },
   // 事件处理函数
