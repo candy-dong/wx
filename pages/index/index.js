@@ -4,6 +4,7 @@ const app = getApp()
 
 Page({
   data: {
+    flag:false,
     type: 1,
     count:0,
     info:'hello,world',

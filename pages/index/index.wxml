@@ -2,11 +2,17 @@
 <view wx:elif="{{type === 2}}">女</view>
 <view wx:else>保密</view> -->
 <!-- view包裹容器会被显示 -->
-<view wx:if="{{false}}">
+<!-- <view wx:if="{{false}}">
   <view>view1</view>
   <view>view2</view>
 </view>
 <block  wx:if="{{true}}">
   <view>view3</view>
   <view>view4</view>
-</block>
+</block> -->
+<!-- wx-if是动态创建和移除元素
+hidden切换样式方式 display:nono/block,
+频繁切换时，建议hidden
+控制条件比较复杂，用wx:if
+ -->
+<view hidden="{{flag}}">hidden为true的时候隐藏</view>
