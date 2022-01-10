@@ -1,3 +1,12 @@
-<view wx:if="{{type === 1}}">男</view>
+<!-- <view wx:if="{{type === 1}}">男</view>
 <view wx:elif="{{type === 2}}">女</view>
-<view wx:else>保密</view>
+<view wx:else>保密</view> -->
+<!-- view包裹容器会被显示 -->
+<view wx:if="{{false}}">
+  <view>view1</view>
+  <view>view2</view>
+</view>
+<block  wx:if="{{true}}">
+  <view>view3</view>
+  <view>view4</view>
+</block>
