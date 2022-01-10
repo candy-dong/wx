@@ -4,12 +4,23 @@ const app = getApp()
 
 Page({
   data: {
+    count:0,
+    info:'hello,world',
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
     canIUseGetUserProfile: false,
     canIUseOpenData: wx.canIUse('open-data.type.userAvatarUrl') && wx.canIUse('open-data.type.userNickName') // 如需尝试获取用户信息可改为false
+  },
+  // 定义按钮事件的处理函数
+  btnTabHandler(e){
+    console.log(e)
+  },
+  countChange(){
+    this.setData({
+      count: this.data.count+1
+    })
   },
   // 事件处理函数
   bindViewTap() {
