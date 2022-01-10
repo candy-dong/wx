@@ -1,5 +1,3 @@
-<button type="primary" bindtap="btnTabHandler">按钮</button>
-<button type="primary" bindtap="countChange">按钮</button>
-<!-- 事件传参 data-* = "{{}}" -->
-<button type="primary" bindtap="bindTap2" data-info="{{2}}">按钮</button>
-<input type="text" bindinput="inputHandler"/>
+<view wx:if="{{type === 1}}">男</view>
+<view wx:elif="{{type === 2}}">女</view>
+<view wx:else>保密</view>
