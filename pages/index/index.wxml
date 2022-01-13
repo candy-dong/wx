@@ -7,6 +7,6 @@
   索引是：{{idx}},item项是{{itemName}}
 </view>
 <view>------</view>
-<view wx:for="{{userList}}" wx:key="id">
+<view wx:for="{{userList}}" wx:key="id" class="username">
   {{item.name}}
 </view>
