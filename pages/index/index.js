@@ -4,6 +4,12 @@ const app = getApp()
 
 Page({
   data: {
+    userList:[
+      {id:1,name:'小红'},
+      {id:2,name:'小黄'},
+      {id:3,name:'小蓝'}
+    ],
+    arr1:['苹果','华为','小米'],
     flag:false,
     type: 1,
     count:0,
