@@ -1,7 +1,8 @@
 {
   "pages":[
-    "pages/test/test",
+    "pages/home/home",
     "pages/index/index",
+    "pages/test/test",
     "pages/list/list",
     "pages/logs/logs"
   ],
@@ -9,7 +10,10 @@
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#eee",
+    "onReachBottomDistance": 50
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

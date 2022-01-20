@@ -14,6 +14,9 @@
   margin: 20rpx;
   border-radius: 50%;
 }
+view:nth-child(1){
+  background-color: lightcoral;
+}
 
 .usermotto {
   margin-top: 200px;
